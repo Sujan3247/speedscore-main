@@ -1,5 +1,5 @@
 # SpeedScore
-this is just a test
+
 This repository contains the code for SpeedScore, a single page web application that supports the sport of speedgolf by allowing users to
 
 -   log and analyze their speedgolf rounds
