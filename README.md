@@ -12,7 +12,7 @@ To run SpeedScore from Visual Studio Code, type
 `npm run start`
 in the terminal.
 
-## Reflection
+## Reflection Task 1
 
 During the implementation of this warmup task, I focused on understanding the existing code structure and making minimal, effective changes. My approach involved:
 
