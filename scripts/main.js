@@ -29,6 +29,11 @@ const GlobalFocusedMenuItem = (() => {
     }
     return Object.freeze(Store)
 })()
+/************************************/
+/* ABOUT BOX                        */
+/************************************/
+var GlobalAboutBox = new bootstrap.Modal(document.getElementById('aboutSpeedScore'));
+var GlobalAboutBoxCloseBtn = document.getElementsByClassName("close-about-btn");
 
 
 /************************************/

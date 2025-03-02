@@ -44,6 +44,18 @@ for (let i = 0; i < GlobalMenuItems.length; ++i) {
     });
 }
 
+for (let i = 0; i < GlobalAboutBoxCloseBtn.length; ++i) { 
+    GlobalAboutBoxCloseBtn[i].addEventListener("click", function(e) { 
+        GlobalAboutBox.hide(); 
+    }); 
+}
+
+GlobalMenuItems[1].addEventListener("click", function(e) {    
+    GlobalAboutBox.show(); 
+    GlobalMenuBtn.click(); 
+});
+
+
 
 /*************************************************************************
 * @function keyDownMenuBtnFocused
